@@ -1,0 +1,43 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+.container {
+  max-width: 850px;
+  width: 100%;
+  padding: 20px;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+
+}
+
+
+:root{
+  background: black;
+}
+
+.navbar>ul{
+  justify-content: space-around;
+  display: flex;
+}
+
+.content{
+  margin: 80px;
+}
+
+.navbar>ul>li{
+  color: white;
+}
+
+.navbar{
+ justify-content: center;
+}

@@ -1,0 +1,72 @@
+
+.left-panel, .right-panel {
+  width: 45%;
+  padding: 20px;
+  background-color: #333333; /* Темный фон для панелей */
+  color: #ffffff; /* Белый текст на темном фоне */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.error-message{
+  color: red;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #444;
+  color: #fff;
+}
+
+button {
+  background-color: #4caf50; /* Зеленая кнопка */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049; /* Темнее при наведении */
+}
+
+p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.komment{
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.komment li{
+  color: gray;
+  margin: 10px 0px;
+}
+
+.delete-btn{
+  cursor: pointer;
+  color: red;
+  font-size: 15px;
+}
+
+.category-buttons{
+  margin: 20px 0px;
+  display: flex;
+  gap: 20px;
+}
+
+.category-btn{
+  background-color: #333333;
+}
+.category-btn:hover{
+  background-color: #1e1d1d;
+}
